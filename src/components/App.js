@@ -18,7 +18,7 @@ function App() {
       <div className="w-100" style={{ maxWidth: "400px" }}>
         <Router>
           <AuthProvider>
-            <Switch basename="/src">
+            <Switch basename="/src/components">
               
               <PrivateRoute exact path="/" component={Dashboard} />
               <PrivateRoute path="/update-profile" component={UpdateProfile} />
